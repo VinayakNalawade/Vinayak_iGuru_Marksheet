@@ -1,0 +1,131 @@
+* {
+    color : #000000;
+    font-family : Roboto;
+}
+
+table {
+    width : 100%;
+    border-collapse : collapse;
+    text-align: center;
+}
+
+td,th {
+    border : 1px solid black;
+    border-left : none;
+    padding : 5px;
+}
+
+.table-lastcell-border{
+    border-right : none;
+}
+
+.main-container {
+    margin: 5%;
+    border : 1px solid black;
+}
+
+.logo-heading-container {
+    display : flex;
+}
+
+.logo {
+    min-width: 25px;
+    min-height : 25px;
+    padding : 5px;
+}
+
+.schoolname-address-container {
+    width: 84%;
+    padding : 2%;
+    text-align : center;
+}
+
+.school-name {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.address {
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.card-heading-container {
+    text-align : center;
+    border-bottom : 1px solid black;
+}
+
+.card-heading {
+    font-size: 22px;
+    font-weight: 500;
+}
+
+.student-details-container {
+    display: flex;
+    padding-right : 2%;
+    padding-left : 2%;
+}
+
+.student-details-list{
+    padding : 0;
+    width : 25%;
+}
+
+.student-details-li{
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom : 7px;
+}
+
+li {
+    list-style-type : none;
+}
+
+.result-section {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.result-li{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+.signature-names-container {
+    padding : 0;
+    display: flex;
+    text-align: center;
+    margin: 0;
+}
+
+.signature-name-li {
+    border : 1px solid black;
+    border-left : none;
+    width: 33%;
+    flex-grow : 1;
+    padding : 8px;
+    font-size: 17px;
+    font-weight: 600;
+
+}
+
+.signature-name-border-last {
+    border-right : none;
+}
+
+.signature-li {
+    border-right : 1px solid black;
+    width: 33%;
+    flex-grow : 1;
+    padding : 8px;
+    height: 40px;
+
+}
+
+.signature-border-last {
+    border-right : none;
+}
+
+
+

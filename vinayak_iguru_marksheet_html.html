@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>Marksheet</title>
+    <link rel="stylesheet" type="text/css" href="./vinayak_iguru_marksheet_css.css" >
+  </head>
+  <body>
+
+    <div class="main-container">
+      
+      <div class="top-section">
+        <div class="logo-heading-container">
+          <img id="logo" alt="logo" class="logo" src=""/>
+          <div class="schoolname-address-container">
+            <h1 id="schoolName" class="school-name"></h1>
+            <p id="schoolAddress" class="address"></p>
+            <p class="address">Visit Us at: <span id="schoolWebsite">www.maharajainternationalschoolujjain.com</span></p>
+          </div>
+        </div>
+        <div class="card-heading-container">
+          <h1 class="card-heading">REPORT CARD</h1>
+          <h1 class="card-heading">ACADAMIC SESSION : <span id="academicSession"></span></h1>
+        </div>
+      </div>
+
+      <div class="student-details-container">
+        <ul class="student-details-list">
+          <li class="student-details-li">Schoolar No.</li>
+          <li class="student-details-li">Roll No.</li>
+          <li class="student-details-li">Father' Name</li>
+          <li class="student-details-li">Attendance</li>
+        </ul>
+
+        <ul class="student-details-list">
+          <li class="student-details-li">:- <span id="schoolarNo"></span></li>
+          <li class="student-details-li">:- <span id="rollNo"></span></li>
+          <li class="student-details-li">:- <span id="fathersName"></span></li>
+          <li class="student-details-li">:- <span id="attendence"></span></li>
+        </ul>
+
+        <ul class="student-details-list">
+          <li class="student-details-li">Class</li>
+          <li class="student-details-li">Name of Student</li>
+          <li class="student-details-li">Mother's Name</li>
+          <li class="student-details-li">Date of Birth</li>
+        </ul>
+
+        <ul class="student-details-list">
+          <li class="student-details-li">:- <span id="class"></span></li>
+          <li class="student-details-li">:- <span id="nameOfStudent"></span></li>
+          <li class="student-details-li">:- <span id="mothersName"></span></li>
+          <li class="student-details-li">:- <span id="dateOfBirth"></span></li>
+        </ul>
+      </div>
+
+      <table >
+        
+        <tr>
+          <th rowspan="2" colspan="2">SUBJECTS</th>
+          <th rowspan="1" colspan="3">Term I</th>
+          <th rowspan="1" colspan="3">Term II</th>           
+          <th rowspan="1" colspan="2" class="table-lastcell-border">Final Result</th>
+        </tr>
+
+        <tr >          
+          <th rowspan="1" colspan="1">Best Score PT-I,II<br/>20</th>
+          <th rowspan="1" colspan="1">Term I<br/>80</th>
+          <th rowspan="1" colspan="1">Marks Obt.<br/>100</th>
+          <th rowspan="1" colspan="1">Best Score PT-I,II<br/>20</th>
+          <th rowspan="1" colspan="1">Term II<br/>80</th>
+          <th rowspan="1" colspan="1">Marks Obt.<br/>100</th>
+          <th rowspan="1" colspan="1">T-I + T-II<br/>200</th>
+          <th rowspan="1" colspan="1" class="table-lastcell-border"><br/>Grade</th>
+        </tr>
+        <tr>
+          <th rowspan="1" colspan="2">ENGLISH</th>
+          <td id="engTermIBestScore" rowspan="1" colspan="1"></td>
+          <td id="engTermI" rowspan="1" colspan="1"></td>
+          <td id="engTermIMarksObt" rowspan="1" colspan="1"></td>
+          <td id="engTermIIBestScore" rowspan="1" colspan="1"></td>
+          <td id="engTermII" rowspan="1" colspan="1"></td>
+          <td id="engTermIIMarksObt" rowspan="1" colspan="1"></td>
+          <td id="engTotal" colspan="1"></td>
+          <td id="engGrade" colspan="1" class="table-lastcell-border"></td>
+        </tr>
+        <tr>
+          <th rowspan="1" colspan="2">HINDI</th>
+          <td id="hinTermIBestScore" rowspan="1" colspan="1"></td>
+          <td id="hinTermI" rowspan="1" colspan="1"></td>
+          <td id="hinTermIMarksObt" rowspan="1" colspan="1"></td>
+          <td id="hinTermIIBestScore" rowspan="1" colspan="1"></td>
+          <td id="hinTermII" rowspan="1" colspan="1"></td>
+          <td id="hinTermIIMarksObt" rowspan="1" colspan="1"></td>
+          <td id="hinTotal" colspan="1"></td>
+          <td id="hinGrade" colspan="1" class="table-lastcell-border"></td>
+        </tr>
+        <tr>
+          <th rowspan="1" colspan="2">MATHS</th>
+          <td id="mathTermIBestScore" rowspan="1" colspan="1"></td>
+          <td id="mathTermI" rowspan="1" colspan="1"></td>
+          <td id="mathTermIMarksObt" rowspan="1" colspan="1"></td>
+          <td id="mathTermIIBestScore" rowspan="1" colspan="1"></td>
+          <td id="mathTermII" rowspan="1" colspan="1"></td>
+          <td id="mathTermIIMarksObt" rowspan="1" colspan="1"></td>
+          <td id="mathTotal" colspan="1"></td>
+          <td id="mathGrade" colspan="1" class="table-lastcell-border"></td>
+        </tr>
+        <tr>
+          <th rowspan="1" colspan="2">TOTAL</th>
+          <th id="totalTermIBestScore" rowspan="1" colspan="1"></th>
+          <th id="totalTermI" rowspan="1" colspan="1"></th>
+          <th id="totalTermIMarksObt" rowspan="1" colspan="1"></th>
+          <th id="totalTermIIBestScore" rowspan="1" colspan="1"></th>
+          <th id="totalTermII" rowspan="1" colspan="1"></th>
+          <th id="totalTermIIMarksObt" rowspan="1" colspan="1"></th>
+          <th id="totalTotal" colspan="1"></th>
+          <th id="totalGrade" colspan="1" class="table-lastcell-border"></th>
+        </tr>
+        
+      </table>
+
+      <ul class="result-section">
+        <li class="result-li">Result:- <span id="result"></span></li>
+        <li class="result-li">Percentage:- <span id="percentage"></span>%</li>
+        <li class="result-li">Grade:- <span id="grade"></span></li>
+      </ul>
+
+      <ul class="signature-names-container">
+        <li class="signature-name-li">Parents</li>
+        <li class="signature-name-li">Class Teacher</li>
+        <li class="signature-name-li signature-name-border-last">Principal</li>
+      </ul>
+
+      <ul class="signature-names-container">
+        <li class="signature-li"></li>
+        <li class="signature-li"></li>
+        <li class="signature-li signature-border-last"></li>
+      </ul>      
+      
+    </div>
+    <script type="text/javascript" src="./vinayak_iguru_marksheet_js.js"></script>
+  </body>
+</html> 
